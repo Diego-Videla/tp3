@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    background: #252525;
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .contenedor{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  #input-text{
+    height: 30px;
+  }
+  .error{
+    color: white;
+    font-size: 20px;
+  }
+
+  .add-btn{
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white;
+    color: blue;
+    
+  }
+  .busqueda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagen{
+    width: 300px;
+    height: 300px;
+  }
+  .card-pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .precio{
+    font-size: 50px;
+    color: white;
+  }
